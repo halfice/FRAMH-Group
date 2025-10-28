@@ -55,3 +55,14 @@ Use ACI for testing / cloud demo.\
 Use IoT Hub + Edge for production / real cameras on-prem.\
 \
 }
+
+
+
+New Approach
+Camera / RTSP feed
+     ↓
+YOLOv8 Python app  (containerized)
+     ↓
+REST API (FastAPI)
+     ↓
+JSON detections  →  Azure SQL / Cosmos DB
