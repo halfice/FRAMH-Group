@@ -75,4 +75,15 @@ JSON detections  →  Azure SQL / Cosmos DB
 -- I am tyring to build an yolo fast api app, which takes videos from url and put the images in the container
 --so for this, i need docer to build a conta9ner and put it on my acr. then i will create instance which can show me swagger to consume form client.\
 -- I have colima docker on my mac. 
-1. colima start
+1. colima start\
+
+
+
+Stop and remove all containers:
+docker stop $(docker ps -aq) 2>/dev/null
+docker rm $(docker ps -aq) 2>/dev/null
+
+
+Remove all images:
+docker rmi -f $(docker images -q) 2>/dev/null
+
