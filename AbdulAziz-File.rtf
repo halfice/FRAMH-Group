@@ -86,4 +86,5 @@ docker rm $(docker ps -aq) 2>/dev/null
 
 Remove all images:
 docker rmi -f $(docker images -q) 2>/dev/null
+docker system prune -a --volumes -f
 
