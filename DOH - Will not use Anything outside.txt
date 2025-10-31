@@ -1,0 +1,10 @@
+DOH - Will not use Anything outside UAE?
+Curently Azure Spaitial model is not in UAE?
+We need to come up with our own Model.
+model Yolo has good accuracy.
+so , we have a page, where we ues our won Camera , which capture the image and tell how many pepl
+are there with accuracy.
+
+Here, We need to know who we can use AI agents to supervise our data. or understand and 
+create a Power BI base Dashboard automatically , out agents will give the source of data and 
+it will geneate the Dashboard. Related to DOH.
